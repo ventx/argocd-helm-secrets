@@ -1,6 +1,6 @@
 # argocd-helm-secrets
 
-Custom Argo CD Docker image with [sops](https://github.com/mozilla/sops) ([helm-secrets](https://github.com/zendesk/helm-secrets)).
+Custom Argo CD Docker image with [sops](https://github.com/mozilla/sops) and ([helm-secrets](https://github.com/zendesk/helm-secrets)).
 
 
 ## Docker Hub
@@ -18,6 +18,11 @@ Custom Argo CD Docker image with [sops](https://github.com/mozilla/sops) ([helm-
 
 * [curl](https://packages.debian.org/buster/curl)
 * [wget](https://packages.debian.org/buster/wget)
+
+
+## Installed Packages (go binaries)
+
+* [sops](https://github.com/mozilla/sops) `v3.5.0`
 
 
 # Helm Plugins
