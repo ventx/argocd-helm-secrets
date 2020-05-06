@@ -1,4 +1,4 @@
-FROM argoproj/argocd:v1.5.3
+FROM argoproj/argocd:v1.5.4
 
 ARG HELM3=3.2.0
 ARG HELM_SECRETS=2.0.2
